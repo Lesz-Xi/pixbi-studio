@@ -1,0 +1,12 @@
+{
+  "name": "pixbi-studio",
+  "private": true,
+  "description": "Cozy Cabin landing redesign: static page, offline standalone build, headless verify suite.",
+  "scripts": {
+    "build": "python3 build-standalone.py",
+    "verify": "node verify/verify.cjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.11.0"
+  }
+}
